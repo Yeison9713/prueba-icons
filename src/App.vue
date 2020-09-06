@@ -3,8 +3,16 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <!-- <ion-icon name="arrow-back" color="primary"></ion-icon> -->
+      <ion-icon md="home" color="primary"></ion-icon>
+      <ion-icon md="home-sharp"></ion-icon>
+      <ion-icon md="start" color="secondary"></ion-icon>
+      <ion-icon md="trash" color="danger"></ion-icon>
+      <ion-icon md="create"></ion-icon>
+      <ion-icon md="add-circle"></ion-icon>
+      <ion-icon md="log-out" color="primary"></ion-icon>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
